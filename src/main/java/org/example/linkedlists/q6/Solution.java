@@ -32,7 +32,7 @@ public class Solution {
         if (head == null) return false;
 
         boolean hasCycle = false;
-        
+
         while (head.next != null) {
             if (head.val==Integer.MAX_VALUE) {
                 hasCycle = true;
