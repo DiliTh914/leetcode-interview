@@ -6,7 +6,7 @@ public class Q {
         Solution solution = new Solution();
 
         String[] strs = {"ab", "a"};
-        int x = solution.maxDepth(null);
+        boolean x = solution.isValidBST(null);
 
         System.out.println(x);
 
